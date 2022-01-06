@@ -3,10 +3,19 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
+Calmo helps you escape the world and focus more on some me time.
 
-- ✨Magic ✨
+We have "focus mode" so you can escape this virtual world and concentrate more on your work the ambient sound helps in increasing concentration also good for sleep and meditation.The focus mode also shows quotes on top to make you stay motivated for your goals.
+
+//{Feeling low no worries we have our "radio" playlist to vibe with your mood.}//--TODO
+
+We also have introduced a feature for people open up to the world our "secret confession " here you can open up and share anything you want without feeling insecure about people judging you as it is completely anonymous no login or any data is taken by the application so feel free to try it.
+
+Then we have our notes section where you can open heartedly write down your mind and soul.Totally offline storage so no worries of leak or any privacy concerns.
+
+Never feel alone...
+
+-✨🤗✨
 
 ## Flow
 
@@ -20,11 +29,12 @@ AngularJS-powered HTML5 Markdown editor.
 
 ## Features
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- Anonymous Secrets Confession
+- No privacy concerns
+- Modern Architectre 
+- Music/Relax
+- Clean UI
+- Notes
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
