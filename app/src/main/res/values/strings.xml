@@ -1,0 +1,68 @@
+<resources>
+    <string name="adId">ca-app-pub-3940256099942544/6300978111</string>
+    <!--Edit your BannerId -->
+    <string name="adSize">BANNER</string>
+    <!--Edit your BannerSize -->
+    <string name="app_name">Calmo</string>
+    <!--Edit your AppName -->
+    <string name="about">about</string>
+    <string name="feedback">send feedback</string>
+    <string name="privacy">privacy policy</string>
+    <string name="terms">terms of use</string>
+    <string name="rate">kindly rate us</string>
+    <string name="menu">menu</string>
+    <string name="hey">hey</string>
+    <string name="focus">sleep.relax.focus mode</string>
+    <string name="confess">confess secret</string>
+    <string name="focusmode">focus mode</string>
+    <string name="name">can we know your name</string>
+    <string name="tag">let\'s know each other better</string>
+    <string name="radio">calmo radio section</string>
+    <string name="secretHead">feel free to express yourself no one is more important than you.</string>
+    <string name="charLimit">you have 500 characters</string>
+    <string name="confessButton">confess</string>
+    <string name="secretFeed">secret feed</string>
+    <string name="feedTag">feed may take some time depending on your internet</string>
+    <string name="feedbackSubject">feedback</string>
+    <string name="gmailNotInstalled">gmail not installed</string>
+    <string name="aboutText">we do nat track any data of yours at all.not even your name all data is stored locally except the secrets that is stored on google\'s firebase servers.please feel safe while using our app.\n \n kindly support us by sharing the app and rating us 5 star on play store.</string>
+    <!--Radio Category-->
+    <string name="lofi">lofi</string>
+    <string name="pop">pop</string>
+    <string name="sad">sad</string>
+    <string name="happy">happy</string>
+    <string name="todo">TODO</string>
+    <string name="rename_profile">rename profile</string>
+    <string name="code_of_conduct">code of conduct</string>
+    <string name="secrets_rules">~ do not spam \n~ do not abuse \n~ you can\'t share links\n~promotions are prohibited \n~ sharing of contact details are prohibited \n\n please be kind enough to keep this place safe, clean and peaceful.</string>
+    <string name="secrets_warning">violation of any of these will lead to ban</string>
+    <string name="secret">secret</string>
+    <string name="player">player</string>
+    <string name="explore">explore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="relax">relax</string>
+    <string name="confession">confession</string>
+    <string name="notes">notes</string>
+    <string name="settings">settings</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title">title...</string>
+    <string name="write">write...</string>
+    <string name="notesTag">your personal space to express yourself and keep records of it.</string>
+    <string name="secretsTag">confess secrets with world anonymously ,\n to let the weight off</string>
+    <string name="settingstag">explore about the app here\n</string>
+    <string name="empty">empty</string>
+</resources>

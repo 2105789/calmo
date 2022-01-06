@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924641380325",
+    "firebase_url": "https://calmox-4ba94-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "calmox-4ba94",
+    "storage_bucket": "calmox-4ba94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924641380325:android:c5c15557c2b56e04b3d10c",
+        "android_client_info": {
+          "package_name": "com.calmox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924641380325-4doiciirb3bg2fq9pjn6j98o3nbkcs2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8F0fG7pof8DdWRQ7SXriTizr3zQY3KP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924641380325-4doiciirb3bg2fq9pjn6j98o3nbkcs2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

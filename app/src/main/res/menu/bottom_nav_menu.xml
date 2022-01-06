@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/musicFragment"
+        android:icon="@drawable/ic_baseline_spa_24"
+        android:title="@string/relax" />
+
+    <item
+        android:id="@+id/secretsFeedFragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/confession" />
+
+    <item
+        android:id="@+id/notesFeedFragment"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/settings" />
+
+</menu>

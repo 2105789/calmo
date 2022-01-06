@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Music.MusicFragment"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sea_back"
+        android:alpha="0.2"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="175dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/round_stop"
+        android:contentDescription="@string/todo"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp">
+
+        <TextView
+            android:id="@+id/focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/home"
+            android:text="@string/focusmode"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_below="@+id/focus"
+            android:id="@+id/quotes"
+            android:gravity="end"
+            android:fontFamily="@font/secret"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#90ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_marginTop="25dp"
+        android:id="@+id/whiteNoise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:rowCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:shape="ring"
+            app:cardBackgroundColor="#50000000"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/spa"
+                android:contentDescription="@string/todo" />
+
+            <Button
+                android:id="@+id/music_spa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/music_buttons" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:shape="ring"
+            app:cardBackgroundColor="#50000000"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/forest"
+                android:contentDescription="@string/todo"/>
+
+            <Button
+                android:id="@+id/forest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/music_buttons" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:shape="ring"
+            app:cardBackgroundColor="#50000000"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/sea"
+                android:contentDescription="@string/todo"/>
+
+            <Button
+                android:id="@+id/sea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/music_buttons" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:shape="ring"
+            app:cardBackgroundColor="#50000000"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/rain"
+                android:contentDescription="@string/todo"/>
+
+            <Button
+                android:id="@+id/rain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/music_buttons" />
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+    <GridLayout
+        android:layout_gravity="bottom"
+        android:columnCount="1"
+        android:rowCount="1"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_width="340dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:src="@drawable/low_volume"
+                android:contentDescription="@string/todo"
+                tools:ignore="RtlHardcoded" />
+
+            <SeekBar
+                android:id="@+id/seekBar2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:thumbTint="@color/white"
+                android:progressTint="@color/black"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left"
+                android:src="@drawable/high_volume"
+                android:contentDescription="@string/todo"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:id="@+id/music_start"
+                android:gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/home"
+                android:background="@drawable/round_start"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                />
+            <ImageButton
+                android:id="@+id/music_button"
+                android:layout_marginStart="30dp"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:contentDescription="@string/todo"
+                android:background="@drawable/music"
+                />
+        </LinearLayout>
+    </GridLayout>
+
+</FrameLayout>

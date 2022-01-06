@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notes.NotesAddFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b1"
+        android:alpha="0.1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/notesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:hint="@string/title"
+            android:fontFamily="@font/home"
+            android:background="@drawable/notes_write_back"/>
+
+        <EditText
+            android:id="@+id/notesData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:layout_margin="10dp"
+            android:background="@drawable/notes_write_back"
+            android:hint="@string/write"
+            android:fontFamily="@font/secret"
+            android:padding="10dp"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/ButtonAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/primary"
+        android:background="@drawable/ic_baseline_done_24"
+        android:contentDescription="@string/todo" />
+</FrameLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/musicFragment">
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.calmox.Music.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/secretsFeedFragment"
+        android:name="com.calmox.Confession.SecretsFeedFragment"
+        android:label="fragment_secrets_feed"
+        tools:layout="@layout/fragment_secrets_feed" >
+        <action
+            android:id="@+id/gotoWriteSecret"
+            app:destination="@id/secretsWriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secretsWriteFragment"
+        android:name="com.calmox.Confession.SecretsWriteFragment"
+        android:label="fragment_secrets_write"
+        tools:layout="@layout/fragment_secrets_write" >
+        <action
+            android:id="@+id/gotoRuleSecret"
+            app:destination="@id/secretsRulesFragment" />
+        <action
+            android:id="@+id/gotoFeedSecret"
+            app:destination="@id/secretsFeedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secretsRulesFragment"
+        android:name="com.calmox.Confession.SecretsRulesFragment"
+        android:label="fragment_secrets_rules"
+        tools:layout="@layout/fragment_secrets_rules" >
+        <action
+            android:id="@+id/action_secretsRulesFragment_to_secretsWriteFragment"
+            app:destination="@id/secretsWriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.calmox.Setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/gotoAbout"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.calmox.Setting.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/notesFeedFragment"
+        android:name="com.calmox.notes.NotesFeedFragment"
+        android:label="fragment_notes_feed"
+        tools:layout="@layout/fragment_notes_feed" >
+        <action
+            android:id="@+id/gotoAddNotes"
+            app:destination="@id/notesAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesAddFragment"
+        android:name="com.calmox.notes.NotesAddFragment"
+        android:label="fragment_notes_add"
+        tools:layout="@layout/fragment_notes_add" >
+        <action
+            android:id="@+id/gotoFeedNote"
+            app:destination="@id/notesFeedFragment" />
+    </fragment>
+</navigation>
