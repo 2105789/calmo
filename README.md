@@ -8,6 +8,16 @@ AngularJS-powered HTML5 Markdown editor.
 
 - ✨Magic ✨
 
+## Flow
+
+![alt text](https://raw.githubusercontent.com/87nehal/calmo/master/CalmoPrototypePng.png)
+
+## Screenshots
+![alt text](https://raw.githubusercontent.com/87nehal/calmo/master/CalmoSS1.png)
+![alt text](https://raw.githubusercontent.com/87nehal/calmo/master/CalmoSS2.png)
+![alt text](https://raw.githubusercontent.com/87nehal/calmo/master/CalmoSS3.png)
+![alt text](https://raw.githubusercontent.com/87nehal/calmo/master/CalmoSS4.png)
+
 ## Features
 
 - Import a HTML file and watch it magically convert to Markdown
