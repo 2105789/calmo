@@ -36,25 +36,15 @@ Never feel alone...
 - Clean UI
 - Notes
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+## Tech Used
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+- RecyclerView : To present the list of different items in the app we used the efficient recyclerview.
+- LiveData & Room Database : We are also using LiveData to update & observe any changes in List Items.
+- Firebase Realtime Databse : Secrets are being stored in Firebase Realtime Database
+- MediaPlayer : MediaPlayer is being used to play white noises in the app.
+- Fragments : Major part of the app is being handeled by fragments.
+- Jetpack : Major navigation in the app is handeled by Jetpack library.
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
-
-## Tech
-
-Dillinger uses a number of open source projects to work properly:
 
 ## License
 
