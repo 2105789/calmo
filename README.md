@@ -38,12 +38,12 @@ Never feel alone...
 
 ## Tech Used
 
-- RecyclerView : To present the list of different items in the app we used the efficient recyclerview.
 - LiveData & Room Database : We are also using LiveData to update & observe any changes in List Items.
+- RecyclerView : To present the list of different items in the app we used the efficient recyclerview.
 - Firebase Realtime Databse : Secrets are being stored in Firebase Realtime Database
 - MediaPlayer : MediaPlayer is being used to play white noises in the app.
-- Fragments : Major part of the app is being handeled by fragments.
 - Jetpack : Major navigation in the app is handeled by Jetpack library.
+- Fragments : Major part of the app is being handeled by fragments.
 
 
 ## Demo
