@@ -17,6 +17,19 @@ Never feel alone...
 
 ✨🤗✨
 
+##  Problem Statement:
+
+Mental health, mostly among the new generation, is starting to rise as a major issue . Where people face issues to focus, insomnia, shorter attention time to name some.
+
+## Proposed Solution :
+
+This app is developed keeping in mind the same, 
+- The Music Section : Research shows the benefits of music therapy for various mental health conditions, including depression, trauma, and schizophrenia (to name a few).  Music acts as a medium for processing emotions, trauma, and grief—but music can also be utilized as a regulating or calming agent for anxiety or for dysregulation.
+- The Secrets Section : It is designed with people in mind who feel under confidence or fear of being judged with respect to those we made this section completely anonymous 
+- The Notes Section : It is made to help people remember things that slip out of their mind by having it written down. It can be used as Sticky Notes or daily diary depending on personal preference.Journaling helps control your symptoms and improve your mood by
+helping you prioritize problems, fears, and concerns;Tracking any symptoms day-to-day so that you can recognize triggers and learn ways to better control them;Providing an opportunity for positive self-talk and identifying negative thoughts and behaviors
+
+
 ## Flow
 
 ![alt text](https://raw.githubusercontent.com/87nehal/calmo/master/CalmoPrototypePng.png)
@@ -64,3 +77,8 @@ Download the `.apk` file [here](https://drive.google.com/file/d/1DmlO6_Ke1ivcAW8
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Feedback
+
+If you have any feedback, please reach out to us at 87nehal@gmail.com
+
