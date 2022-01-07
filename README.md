@@ -15,7 +15,7 @@ Then we have our notes section where you can open heartedly write down your mind
 
 Never feel alone...
 
--✨🤗✨
+✨🤗✨
 
 ## Flow
 
@@ -49,6 +49,17 @@ Never feel alone...
 ## Demo
 
 Download the `.apk` file [here](https://drive.google.com/file/d/1DmlO6_Ke1ivcAW8I9c89am0i6ULM8WnO/view?usp=sharing)
+
+## Future Scope And Update Plans
+
+> The app is currently in further development with a small number of people currently using it and regular feedback is being collected to improve the app.
+
+> It future the plans goes on making the app more closed, with making it a community social networking all, now as you can see the secrets feed app it’s an open board where anyone can write anything, even tho we check for invalid keywords before posting still there rises problem of misuse that’s why we are planning to add auth to the all and ban users in case of misuse of app.
+
+> We plan to add an online music player to the app but due to some issues with firebase (Storage in use) bandwidth and coding bugs issues ,we have pushed it for future updates.
+
+> Lastly we will be adding features to notes to delete & edit individual note entries which have been skipped in this release.
+
 
 ## License
 
