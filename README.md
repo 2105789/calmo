@@ -46,6 +46,10 @@ Never feel alone...
 - Jetpack : Major navigation in the app is handeled by Jetpack library.
 
 
+## Demo
+
+Download the `.apk` file [here](https://drive.google.com/file/d/1DmlO6_Ke1ivcAW8I9c89am0i6ULM8WnO/view?usp=sharing)
+
 ## License
 
-MIT
+[MIT](https://choosealicense.com/licenses/mit/)
