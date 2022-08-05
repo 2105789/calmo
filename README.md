@@ -82,3 +82,4 @@ Download the `.apk` file [here](https://drive.google.com/file/d/1DmlO6_Ke1ivcAW8
 
 If you have any feedback, please reach out to us at 87nehal@gmail.com
 
+##NO FURTHER UPDATE##
